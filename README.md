@@ -47,21 +47,34 @@ Training Accuracy: ~98%
 Model Format: .h5
 
 📁 Project Structure
-CODE/
+
+CODE
+
+├── app.py                        # Flask application
+
+├── requirements.txt              # Required Python libraries
+
+├── save.h5                       # Trained deep learning model
+
 │
-├── app.py                 # Flask application
-├── requirements.txt       # Required Python libraries
-├── save.h5                # Trained deep learning model
-│
-├── static/                # CSS, JS, vendor files
-├── templates/             # HTML pages
-├── model/                 # Training notebooks & model files
-├── upload/                # Uploaded MRI images
-└── MPIP06/                # Supporting project files
+
+├── static/                       # CSS, JS, vendor files
+
+├── templates/                    # HTML pages
+
+├── model/                        # Training notebooks & model files
+
+├── upload/                       # Uploaded MRI images
+
+└── MPIP06/                       # Supporting project files
+
 
 ⚙️ Installation & Setup
+
 1️⃣ Clone the Repository
+
 git clone https://github.com/gopathi-ravivarma/brain-tumor.git
+
 cd brain-tumor
 
 2️⃣ Create & Activate Conda Environment
